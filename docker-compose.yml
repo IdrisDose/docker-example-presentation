@@ -7,6 +7,8 @@ services:
     image         : node:carbon
     container_name: Node
     build         : ./react-demo
+    ports:
+      - "3000:3000"
   #####################
   # NGINX
   #####################
